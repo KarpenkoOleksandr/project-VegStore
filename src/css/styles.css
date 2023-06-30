@@ -1,11 +1,11 @@
 /* Fonts */
 @import url('./fonts.css');
 
-/* Variables/roots */
+/* Variables/roots/base-styles */
 @import url('');
 
 /* Reset */
-@import url('');
+@import url('./reset.css');
 
 /* Header */
 @import url('');
@@ -16,7 +16,13 @@
 /* How it works */
 @import url('');
 
-/* Vegetables */
+/* TO ORDER YOUR VEGETABLE BASKET */
+@import url('');
+
+/* Easy Steps for Buying Fresh Vegetables */
+@import url('');
+
+/* ORGANIC VEGETABLES */
 @import url('');
 
 /* We will call you */
