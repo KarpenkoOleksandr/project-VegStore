@@ -161,7 +161,7 @@ background-image: url(../img/BG-mob.png) ;
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 758px;
+        max-width: 768px;
        
         }
 
@@ -215,13 +215,13 @@ background-image: url(../img/BG-mob.png) ;
 
       .wewill-img {
         max-width: 629px;
-        height: 446px;
+       
             }
         }
 
         @media screen and (min-width: 1280px) {
             .container {
-                max-width: 1270px;
+                max-width: 1280px;
                
                 }
              .wewill-flex {
@@ -275,7 +275,7 @@ background-image: url(../img/BG-mob.png) ;
 
              .wewill-img {
                 max-width: 525px;
-               height: 499px;
+              
                     }
 
           
