@@ -1,11 +1,11 @@
 .container {
-    padding: 0px 15px;
+    padding: 0px 20px;
     margin: 0 auto;
 
 }
 
 .wewill-tittle {
-width: 320px;   
+max-width: 320px;   
 
 font-family: DM Sans;
 font-style: normal;
@@ -22,11 +22,13 @@ text-align: center;
 text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
 
 margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
 
 }
 
 .wewill-text {
-width: 320px; 
+max-width: 320px; 
 
 font-family: DM Sans;
 font-style: normal;
@@ -40,6 +42,8 @@ text-align: center;
 text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
 
 margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .wewill-form {
@@ -124,27 +128,24 @@ background-image: url(../img/BG-mob.png) ;
 }
 
 .wewill-img {
-    width: 100%;
+    max-width: 100%;
 
 }
     
 
 @media screen and (min-width: 375px) {
     .container {
-        max-width: 375px;
-
-        padding: 0px 20px;
-       
+        max-width: 375px;   
         }
 
         .wewill-tittle {
             display: block;
-            width: 321px;
+            
 
         }
         .wewill-text {
             display: block;
-            width: 321px;
+            
         }
         
     .wewill-input {
@@ -170,7 +171,7 @@ background-image: url(../img/BG-mob.png) ;
             font-size: 40px;
             line-height: 1.1;
             letter-spacing: -1.6px;
-            width: 524px;  
+            max-width: 524px;  
             margin-bottom: 20px; 
         }
 
@@ -180,7 +181,7 @@ background-image: url(../img/BG-mob.png) ;
 
             line-height: 1.33;
             letter-spacing: -0.72px;
-            width: 499px;
+            max-width: 499px;
             margin-bottom: 40px;
         }
         
@@ -242,7 +243,7 @@ background-image: url(../img/BG-mob.png) ;
 
              .wewill-tittle {
                 font-size: 48px;
-                width: 614px;
+                max-width: 614px;
 
                 line-height: 1.04;
                 letter-spacing: -1.92px;
@@ -255,8 +256,8 @@ background-image: url(../img/BG-mob.png) ;
                 margin-bottom: 80px;
                 margin-left: 0;
                 text-align: left;
-                width: 523px;
-               padding: 0;
+                max-width: 523px;
+                padding: 0;
              }
 
              .wewill-form {
@@ -275,7 +276,7 @@ background-image: url(../img/BG-mob.png) ;
 
              .wewill-img {
                 max-width: 525px;
-              
+               
                     }
 
           
