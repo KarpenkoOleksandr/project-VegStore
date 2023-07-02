@@ -1,0 +1,151 @@
+.steps-container {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.steps-wrapper {
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--background-item-in-modal);
+  background-image: url(../img/ellips.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .steps-wrapper {
+    background-image: url(../img/ellips2x.png);
+  }
+}
+
+.steps-list {
+  counter-reset: myCounter;
+}
+
+.steps-list-item::before {
+  display: block;
+
+  content: counter(myCounter);
+  counter-increment: myCounter;
+  background: var(--btn-hover-background-color);
+  border-radius: 200px;
+  color: var(--primary-text-color);
+  padding: 10px 17px;
+  font-size: 18px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.72px;
+
+  width: 40px;
+  height: 38px;
+  margin-right: 14px;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+.steps-title {
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  margin-bottom: 40px;
+}
+
+.steps-list-item {
+  display: flex;
+  list-style: none;
+
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+
+  padding-top: 0px;
+  margin-bottom: 21px;
+  margin-left: 0px;
+  height: 100%;
+  max-width: 230px;
+}
+
+@media screen and (min-width: 375px) {
+  .steps-container {
+    max-width: 335px;
+  }
+  .steps-wrapper {
+    max-width: 295px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .steps-container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .steps-wrapper {
+    max-width: 704px;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  .steps-text {
+    height: 100%;
+  }
+
+  .steps-title {
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    width: 274px;
+  }
+
+  steps-list-item::before {
+    width: 46px;
+    height: 44px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .steps-container {
+    max-width: 1280px;
+  }
+  .steps-wrapper {
+    max-width: 1216px;
+    padding: 80px 80px;
+    gap: 110px;
+  }
+
+  .steps-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    width: 512px;
+    margin-bottom: 44px;
+  }
+
+  .steps-list-item {
+    max-width: 340px;
+    margin-bottom: 24px;
+  }
+}
