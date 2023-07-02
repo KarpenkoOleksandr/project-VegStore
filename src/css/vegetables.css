@@ -1,0 +1,247 @@
+:root {
+  --cards-background-color: #eaf7e5;
+  --text-color: #141414;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--primary-whte-color);
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+
+.organic-h {
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  margin-top: 80px;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1280px) {
+  .organic-h {
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+  }
+}
+
+.organic-p {
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1280px) {
+  .organic-p {
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    padding-bottom: 40px;
+    padding: 0 31px;
+  }
+}
+
+.organic-h-v {
+  text-align: center;
+  gap: 14px;
+}
+
+.organic-vegetables {
+}
+
+.organic-v {
+  max-width: 335px;
+  max-height: 443px;
+  border-radius: 20px;
+  background-color: var(--cards-background-color);
+  margin-bottom: 20px;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 0.5);
+}
+
+.organic-v:hover,
+.organic-v:focus {
+  box-shadow: 0px 0px 10px 0px rgba(20, 20, 20, 0.5);
+}
+
+.vegetables-name {
+  font-size: 24px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  margin-bottom: 8px;
+}
+
+.plant {
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.position-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.price {
+  padding: 20px 20px;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+
+.radish-none{
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .vegetables-name {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -1.28px;
+  }
+  .plant {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+  }
+  .price {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+  }
+
+  .radish-none{
+    display: block;
+  }
+}
+
+.cards-info {
+  padding: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  .cards-info {
+    padding: 64px 24px 0px;
+  }
+}
+
+.organic-v > .img-setings {
+  padding: 0px;
+}
+
+.img-setings {
+  object-fit: contain;
+  display: block;
+}
+
+.img-set {
+}
+
+.img-oval {
+}
+
+@media screen and (min-width: 1280px) {
+  .organic-vegetables {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .organic-v {
+    width: calc((100% - 64px) / 3);
+  }
+  .container > .organic-h-v {
+    max-width: 624px;
+  }
+  .organic-h-v {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 14px;
+  }
+}
