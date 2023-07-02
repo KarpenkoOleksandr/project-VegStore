@@ -90,10 +90,10 @@
 
 @media screen and (min-width: 375px) {
   .steps-container {
-    max-width: 335px;
+    max-width: 375px;
   }
   .steps-wrapper {
-    max-width: 295px;
+    max-width: 335px;
   }
 }
 
