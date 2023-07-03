@@ -1,0 +1,91 @@
+<!-- MODAL (POP-UP) -->
+
+<div data-modal class="backdrop is-hidden">
+    <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close="">
+            <svg class="modal-close-btn-icon" width="24" height="24">
+                <use href="./icon/icons-pop-up.svg#icon-x"></use>
+            </svg>
+        </button>
+
+        <h2 class="modal-title">Your Order</h2>
+
+        <!-- MODAL CARD -->
+        <ul class="list modal-list">
+
+            <li class="modal-card">
+                <img srcset="./images/cabbage-1x.jpg 1x, ./images/cabbage-2x.jpg 2x" src="./images/cabbage.jpg"
+                    class="modal-img" alt="Brussels sprouts in a basket" width="94" height="78" />
+
+                <svg class="selected" width="16" height="16">
+                    <use href="./icon/icons-pop-up.svg#icon-selected-product"></use>
+                </svg>
+
+                <div class="modal-card-data">
+                    <h3 class="modal-card-title">Cabbage Basket</h3>
+                    <p class="modal-card-text">Plant</p>
+                </div>
+            </li>
+
+            <!-- CARD-2 -->
+            <li class="modal-card">
+                <img srcset="./images/tomato-1x.jpg 1x, ./images/tomato-2x.jpg 2x" src="./images/tomato.jpg"
+                    class="modal-img" alt="two tomatoes in a basket" width="94" height="78" />
+
+                <svg class="selected" width="16" height="16">
+                    <use href="./icon/icons-pop-up.svg#icon-empty-selection"></use>
+                </svg>
+
+                <div class="modal-card-data">
+                    <h3 class="modal-card-title">Tomato Basket</h3>
+                    <p class="modal-card-text">Plant</p>
+                </div>
+            </li>
+
+            <!-- CARD-3 -->
+            <li class="modal-card">
+                <img srcset="./images/vegetables basket-1x.jpg 1x, ./images/vegetables basket-2x.jpg 2x"
+                    src="./images/vegetables basket.jpg" class="modal-img" alt="vegetables basket" width="94"
+                    height="78" />
+
+                <svg class="selected" width="16" height="16">
+                    <use href="./icon/icons-pop-up.svg#icon-empty-selection"></use>
+                </svg>
+
+                <div class="modal-card-data">
+                    <h3 class="modal-card-title">Vegetables Basket</h3>
+                    <p class="modal-card-text">Plant</p>
+                </div>
+            </li>
+        </ul>
+
+        <!-- MODAL FORM -->
+
+        <form class="modal-form">
+            <div class="modal-form-input-wrapper">
+                <input type="text" id="user-name" name="user-name" placeholder="Enter full name..."
+                    class="contact-form-input" required />
+
+
+                <input type="email" id="user-email" name="user-email" placeholder="Enter email..."
+                    class="contact-form-input" />
+
+                <input type="number" id="user-card" name="user-card" placeholder="Enter card.."
+                    class="contact-form-input" />
+
+            </div>
+
+            <div class="comment">
+                <label for="user-comment" class="modal-form-field"></label>
+                <textarea name="user-comment" id="user-comment" placeholder="Enter comments..."
+                    class="contact-form-message"></textarea>
+            </div>
+
+            <!-- MODAL BUTTON -->
+            <button type="submit" class="modal-form-btn">Submit</button>
+
+        </form>
+
+        <script src="./js/modal.js"></script>
+
+        </body>

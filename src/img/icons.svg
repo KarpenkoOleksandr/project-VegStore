@@ -36,5 +36,19 @@
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path d="M19.52 4.64c0.24 0 0.48 0 0.96 0v3.6c-0.24 0-0.72 0-1.2 0s-0.96 0-1.2 0.24c-0.24 0.24-0.24 0.48-0.24 1.040 0 0.48 0 0.8 0 1.28h2.64v3.040h-2.64v13.2h-4.080v-13.28h-2.16v-3.040h2.16v-1.040c0-1.76 0.24-3.040 0.72-3.6 0.72-1.040 2.16-1.52 4.32-1.52 0.24 0.080 0.48 0.080 0.72 0.080z"></path>
 </symbol>
+
+<symbol id="icon-empty-selection" viewBox="0 0 32 32">
+<path fill="none" stroke="#a1c487" style="stroke: var(--color1, #a1c487)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3" d="M8 1.5h16c3.59 0 6.5 2.91 6.5 6.5v16c0 3.59-2.91 6.5-6.5 6.5h-16c-3.59 0-6.5-2.91-6.5-6.5v-16c0-3.59 2.91-6.5 6.5-6.5z"></path>
+</symbol>
+
+<symbol id="icon-selected-product" viewBox="0 0 32 32">
+<path fill="#a1c487" style="fill: var(--color1, #a1c487)" d="M19.807 10.527c0.372-0.549 1.118-0.692 1.667-0.32s0.692 1.118 0.32 1.667l-6.508 9.6c-0.476 0.702-1.51 0.702-1.986 0l-3.091-4.56c-0.372-0.549-0.229-1.295 0.32-1.667s1.295-0.229 1.667 0.32l2.098 3.095 5.515-8.135z"></path>
+<path fill="none" stroke="#a1c487" style="stroke: var(--color1, #a1c487)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3" d="M8 1.5h16c3.59 0 6.5 2.91 6.5 6.5v16c0 3.59-2.91 6.5-6.5 6.5h-16c-3.59 0-6.5-2.91-6.5-6.5v-16c0-3.59 2.91-6.5 6.5-6.5z"></path>
+</symbol>
+
+<symbol id="icon-x" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8 8l16 16"></path>
+</symbol>
 </defs>
 </svg>
