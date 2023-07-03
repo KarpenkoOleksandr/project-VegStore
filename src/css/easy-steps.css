@@ -185,4 +185,7 @@
   .steps-list-item:nth-child(2) {
     width: 220px;
   }
+  .steps-text {
+    padding: 80px 0px 0px 0px;
+  }
 }
