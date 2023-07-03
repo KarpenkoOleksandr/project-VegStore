@@ -4,6 +4,7 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 80px;
 }
 
 .steps-wrapper {
@@ -28,6 +29,7 @@
 .steps-list {
   counter-reset: myCounter;
   margin-bottom: 20px;
+  padding-right: 45px;
 }
 
 .steps-list-item::before {
@@ -51,8 +53,8 @@
   width: 40px;
   height: 38px;
   margin-right: 14px;
-  margin-bottom: 20px;
-  margin-top: 4px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .steps-title {
@@ -81,50 +83,51 @@
   padding-top: 0px;
   margin-left: 0px;
   height: 100%;
-  max-width: 230px;
+ 
 }
 
 .steps-list-item:not(:last-child) {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
-.steps-photo {
+
+
+.steps-picture {
   display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 375px) {
   .steps-container {
-    max-width: 375px;
+    width: 375px;
   }
   .steps-wrapper {
-    max-width: 335px;
+    width: 335px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .steps-container {
-    max-width: 768px;
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+    padding-bottom: 103px;
   }
 
   .steps-wrapper {
-    max-width: 704px;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 704px;
+    padding: 0px;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    gap: 40px;
+    justify-content: space-between;
   }
 
   .steps-text {
-    height: 100%;
+    padding: 80px 40px 0px 0px;
   }
 
   .steps-title {
-    padding-top: 40px;
+    padding-top: 0px;
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -1.12px;
@@ -138,21 +141,29 @@
   }
 
   .steps-list {
+    width: 275px;
     margin-bottom: 0px;
+    
+  }
+  
+  .steps-photo-list {
+    padding-top: 40px;
+    
   }
 
-  .steps-list-item:not(:last-child) {
-    margin-bottom: 24px;
+  .steps-picture {
+    height: 100%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .steps-container {
-    max-width: 1280px;
+    width: 1280px;
+    padding-bottom: 124px;
   }
   .steps-wrapper {
-    max-width: 1216px;
-    padding: 80px 80px 0px 80px;
+    width: 1216px;
+    padding: 0px 80px 0px 80px;
     gap: 110px;
   }
 
@@ -164,9 +175,14 @@
     margin-bottom: 44px;
   }
 
-  .steps-list-item {
-    max-width: 340px;
+  .steps-list-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  .steps-list {
+    width: 380px;
   }
 
-  
+  .steps-list-item:nth-child(2) {
+    width: 220px;
+  }
 }
