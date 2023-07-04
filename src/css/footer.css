@@ -183,7 +183,11 @@
 @media screen and (min-width: 1280px) {
   .footer .container {
     width: 1280px;
-    padding: 0 142px 0 32px;
+    padding: 0 32px 0 32px;
+  }
+  .footer-container {
+    align-items: center;
+    gap: 166px;
   }
 
   .footer-main-wrap {
