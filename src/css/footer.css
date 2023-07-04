@@ -11,9 +11,11 @@
 
 .footer-img {
   border-radius: 100px;
+}
+.footer-picture {
+  display: block;
   margin-bottom: 20px;
 }
-
 .footer-main-wrap {
   margin-bottom: 40px;
 }
@@ -33,7 +35,7 @@
   transition: fill var(--transition);
 }
 .footer-logo-text {
-  /* text-align: center; */
+  text-align: center;
   color: var(--primary-text-color);
   font-family: DM Sans;
   font-style: normal;
@@ -88,6 +90,7 @@
 
 .social-media-icon {
   fill: currentColor;
+  opacity: 0.800000011920929;
   width: 24px;
   height: 24px;
 }
@@ -100,14 +103,8 @@
 
 /* ADRESS  */
 
-.contact-info-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
 .phone {
+  display: block;
   color: var(--primary-text-color);
   text-align: center;
   font-family: DM Sans;
@@ -116,10 +113,12 @@
   font-size: 14px;
   line-height: 1.28;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .address {
   width: 135px;
+  margin: 0 auto;
 
   color: var(--primary-text-color);
   text-align: center;
@@ -140,7 +139,8 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 744px;
+    width: 768px;
+    padding: 0 32px;
   }
   .footer-container {
     display: flex;
@@ -150,6 +150,9 @@
   .footer-main-wrap {
     margin-bottom: 0;
   }
+  .social-media-list {
+    justify-content: space-between;
+  }
   .social-media-item {
     width: 44px;
     height: 44px;
@@ -158,6 +161,9 @@
     width: 28px;
     height: 28px;
   }
+  .contact-info-list {
+    align-items: start;
+  }
   .phone {
     text-align: start;
     font-size: 18px;
@@ -165,6 +171,7 @@
   }
   .address {
     width: 173px;
+    margin: 0;
 
     text-align: start;
     font-size: 18px;
@@ -174,10 +181,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1256px;
-    padding: 0 142px 0 20px;
+  .footer .container {
+    width: 1280px;
+    padding: 0 142px 0 32px;
   }
+
   .footer-main-wrap {
     display: flex;
     align-items: center;
