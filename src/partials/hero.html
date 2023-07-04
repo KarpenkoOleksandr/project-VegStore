@@ -28,10 +28,12 @@
         </h1>
 <p class="item-p">Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.</p>
         <button type="button" class="button-shop"><span class="shop-span">shop now</span></button>
-            <img class="img-tab"
-            srcset="../img/image1-1x.png 1x, ../img/image2-2x.png 2x"
-            src="../img/image1-1x.png" alt="girl"
-            >   
+<picture>
+<source media="(min-width:1280px )" srcset="../img/image-desct-1x.png 1x, ../img/image-desct-2x.png 2x">
+<source media="(min-width:768px)" srcset="../img/image-tab-1x.png 1x, ../img/image-tab-2x.png 2x">
+<source media="(min-width:375px )" srcset="../img/image-mob-2x.png 1x, ../img/image-mob-1x.png 2x">
+<img class="img-girl" src="../img/image-mob-1x.png" alt="girl">
+</picture>
         <ul class="list-btn">
             <li><button type="button" class="hero-btn">#organic</button></li>
             <li><button type="button" class="hero-btn">#products</button></li>
