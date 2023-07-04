@@ -284,8 +284,7 @@ text-transform: uppercase;
             width: 66px;
         }
         .asiat{
-            margin-top: 132px;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
         }
     
         .asiat-item{
@@ -341,7 +340,6 @@ text-transform: uppercase;
             width: 266px;
         }
         .shop-span{
-            color: #FC8A11;
 text-align: center;
 font-size: 28px;
 font-family: DM Sans;
@@ -351,6 +349,13 @@ line-height: 28px;
 letter-spacing: -1.12px;
 text-transform: uppercase;
 align-items: center;
+        }
+        .section-plus{
+            position:absolute;
+        }
+        .img-girl{
+            margin-right: 0;
+            margin-top: 120px;
         }
 }
 
