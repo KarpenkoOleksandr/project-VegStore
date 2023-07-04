@@ -186,6 +186,7 @@
   }
   .footer-container {
     align-items: center;
+    justify-content: left;
     gap: 166px;
   }
 
