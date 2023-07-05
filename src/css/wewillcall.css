@@ -1,11 +1,9 @@
 .container-wewill {
     padding: 0px 20px;
     margin: 0 auto;
-    
+    padding-bottom: 80px;
 }
-.container-pading {
-   padding-bottom: 80px; 
-}
+
 
 .wewill-tittle {
 max-width: 320px;   
@@ -166,12 +164,9 @@ background-image: url(../img/BG-mob.png) ;
 @media screen and (min-width: 768px) {
     .container-wewill {
         max-width: 768px;
-          
+        padding-bottom: 173px;
         }
 
-        .container-pading {
-            padding-bottom: 173px; 
-         }
         .wewill-tittle {
             margin: 0 auto;
             font-size: 40px;
@@ -228,12 +223,9 @@ background-image: url(../img/BG-mob.png) ;
 
         @media screen and (min-width: 1280px) {
             .container-wewill {
-                max-width: 1280px;
+                max-width: 1280px; 
+                padding-bottom: 124px; 
                 }
-
-                .container-pading {
-                    padding-bottom: 124px; 
-                 }
                  
              .wewill-flex {
                 display: flex;
@@ -289,6 +281,5 @@ background-image: url(../img/BG-mob.png) ;
                
                     }
 
-          
         }
     
