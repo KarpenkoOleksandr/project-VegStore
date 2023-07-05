@@ -68,7 +68,6 @@ text-align: center;
 }
 .border-radius{
     border-radius: 25px;
-
 }
 .reviews-numbur{
 font-weight: 500;
@@ -77,8 +76,6 @@ letter-spacing: -0.56px;
 line-height: 1;
 margin-bottom: 2px;
 text-transform: uppercase;
-
-
 }
 
 
@@ -127,7 +124,6 @@ line-height: 1.2;
 letter-spacing: -0.4px;
 text-transform: uppercase;
 cursor: pointer;
-border-radius: 25px;
 border: 1px solid #FFF;
 padding: 8px 14px;
 height: 28px;
@@ -178,5 +174,83 @@ line-height: 1.1;
 letter-spacing: -2.16px;
 text-transform: uppercase;
     }
+    .asiat{
+        margin-bottom: 16px;
+    }
+    .asiat-item{
+        position: absolute;
+        border: solid 2px #FFF;
+        border-radius: 44px;
+    }
+    .asiat-item:nth-child(2){
+        left: 34px;
+    }
+    .asiat-item:nth-child(3){
+        left: calc(34px * 2);
+    }
+    .asiat-item:nth-child(4){
+        left: calc(34px * 3);
+    }
+    .reviews-item:nth-child(4){
+        left: calc(34px * 3);
+    }
+    
+    
+    .reviews {
+        background-color: #FFF;
+        border-radius: 54px;
+        width: 54px;
+        height: 54px;
+        padding: 10px 11px
+    }
+    .border-radius{
+        border-radius: 25px;
+        width: 50px;
+    }
+    .reviews-numbur{
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: -0.56px;
+        line-height: 1.5;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+        }
+        .item-p{
+            margin-bottom: 34px;
+            width: 490px;
+        }
+        .button-shop{
+            width: 114px;
+            height: 114px;
+            text-align: center;
+            text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+            font-size: 24px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: -0.96px;
+            text-transform: uppercase;
+        }
+        .shop-span{
+            transform: rotate(0);
+        }
+        .img-tab{
+            margin-left: auto;
+            margin-right: auto;
+            width: 466px;
+        }
+        .list-btn{
+            width: 214px;
+        }
+  
+  
 }
+
+@media screen and (min-width: 1280px){
+    .container{
+        max-width: 1280px;
+    }
+}
+
 
