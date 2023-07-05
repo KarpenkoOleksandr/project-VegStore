@@ -28,7 +28,6 @@ margin-bottom: 14px;
     position: absolute;
 }
 
-
 .asiat-item{
     position: absolute;
     border: solid 2px #FFF;
@@ -112,6 +111,7 @@ justify-content: center;
 gap: 4px;
 margin-left: auto;
 width: 171px;
+padding-bottom: 20px;
 }
 
 .hero-btn {
@@ -140,6 +140,7 @@ transition: var(--transition);
 .item-p{
     color: #FFF;
 font-size: 14px;
+font-family: DM Sans;
 font-weight: 400;
 line-height: 1.2;
 letter-spacing: -0.56px;
@@ -152,12 +153,14 @@ height: 32px;
 transform: rotate(-14deg);
 flex-direction: column;
 justify-content: center;
+
 }
 /* Media */
 @media screen and (min-width: 375px){
   .container{
     max-width: 375px;
   }
+
 }
 @media screen and (min-width: 768px) {
     .container{
@@ -174,7 +177,12 @@ line-height: 1.1;
 letter-spacing: -2.16px;
 text-transform: uppercase;
     }
+    .hero-btn{
+        padding: 10px 20px;
+        height: 34px;
+    }
     .asiat{
+        margin-top: 66px;
         margin-bottom: 16px;
     }
     .asiat-item{
@@ -228,7 +236,7 @@ text-transform: uppercase;
             font-family: DM Sans;
             font-style: normal;
             font-weight: 500;
-            line-height: 24px;
+            line-height: 1.1;
             letter-spacing: -0.96px;
             text-transform: uppercase;
         }
@@ -242,6 +250,11 @@ text-transform: uppercase;
         }
         .list-btn{
             width: 214px;
+            padding-bottom: 32px;
+        }
+        .img-girl{
+            margin-left: auto;
+            margin-right: auto;
         }
   
   
@@ -251,6 +264,94 @@ text-transform: uppercase;
     .container{
         max-width: 1280px;
     }
+    .reviews {
+        background-color: #FFF;
+        border-radius: 70px;
+        width: 70px;
+        height: 70px;
+        padding: 16px 20px
+    }
+    .reviews-numbur{
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: -0.56px;
+        line-height: 1.5;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+        }
+        .border-radius{
+            border-radius: 50px;
+            width: 66px;
+        }
+        .asiat{
+            margin-top: 132px;
+            margin-bottom: 20px;
+        }
+    
+        .asiat-item{
+            position: absolute;
+            border: solid 2px #FFF;
+            border-radius: 44px;
+        }
+        .asiat-item:nth-child(2){
+            left: 44px;
+        }
+        .asiat-item:nth-child(3){
+            left: calc(44px * 2);
+        }
+        .asiat-item:nth-child(4){
+            left: calc(44px * 3);
+        }
+        .reviews-item:nth-child(4){
+            left: calc(44px * 3);
+        }
+        .hero{
+            color: #FFF;
+            text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+            font-size: 64px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.17;
+            letter-spacing: -2.56px;
+            text-transform: uppercase;
+            width: 672px;
+        }
+        .button-shop{
+            width: 132px;
+            height: 132px;
+            text-align: center;
+            text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+            font-size: 24px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.1;
+            letter-spacing: -1.96px;
+            text-transform: uppercase;
+        }
+        .list-btn{
+            gap: 8px;
+        }
+        .hero-btn{
+            padding: 12px 32px;
+            height: 38px;
+        }
+        .list-btn{
+            width: 266px;
+        }
+        .shop-span{
+            color: #FC8A11;
+text-align: center;
+font-size: 28px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -1.12px;
+text-transform: uppercase;
+align-items: center;
+        }
 }
 
 
