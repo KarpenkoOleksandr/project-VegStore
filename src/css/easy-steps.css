@@ -99,7 +99,7 @@
 
 @media screen and (min-width: 375px) {
   .steps-container {
-    width: 375px;
+    max-width: 375px;
   }
   .steps-wrapper {
     width: 335px;
@@ -108,7 +108,7 @@
 
 @media screen and (min-width: 768px) {
   .steps-container {
-    width: 768px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 103px;
@@ -158,7 +158,7 @@
 
 @media screen and (min-width: 1280px) {
   .steps-container {
-    width: 1280px;
+    max-width: 1280px;
     padding-bottom: 124px;
   }
   .steps-wrapper {
