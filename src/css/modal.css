@@ -8,8 +8,6 @@
     pointer-events: none;
 }
 
-
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -75,7 +73,6 @@
 /*MODAL CARD*/
 
 
-
 .modal-list {
 display: flex;
 flex-direction: column;
@@ -117,10 +114,10 @@ gap: 12px;
     letter-spacing: -0.28px;
 }
 
-.selected{ position: absolute;}
-
-
-
+.selected{ position: absolute;
+top: 14;
+right: 14;
+}
 
 
 .contact-form-input {
@@ -132,10 +129,25 @@ gap: 12px;
     padding-left: 24px;
     outline: transparent;
     color: #000000;
-
 }
 
+.contact-form-input:not(:last-child){
+    margin-bottom: 14px;
+}
 
+.contact-form-message {
+    width: 100%;
+    min-height: 132px;
+    border-radius: 20px;
+    border: 1px solid rgba(20, 20, 20, 0.30);
+    background-color: transparent;
+    padding-left: 24px;
+    outline: transparent;
+    color: #000000;
+    resize: none;
+
+    margin-bottom: 20px;
+}
 
 .modal-form-field{
     width: 100%;
