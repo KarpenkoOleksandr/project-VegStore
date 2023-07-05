@@ -8,7 +8,7 @@
 @import url('./reset.css');
 
 /* Header */
-@import url('');
+@import url('./header.css');
 
 /* Hero */
 @import url('./hero.css');
@@ -17,19 +17,19 @@
 @import url('');
 
 /* TO ORDER YOUR VEGETABLE BASKET */
-@import url('');
+@import url('./to-order.css');
 
 /* Easy Steps for Buying Fresh Vegetables */
-@import url('');
+@import url('./easy-steps.css');
 
 /* ORGANIC VEGETABLES */
-@import url('');
+@import url('../css/vegetables.css');
 
 /* We will call you */
-@import url('');
+@import url('wewillcall.css');
 
 /* Footer */
-@import url('');
+@import url('./footer.css');
 
 /* Modal window */
 @import url('');
