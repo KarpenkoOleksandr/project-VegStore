@@ -85,7 +85,7 @@
 
 .modal-card {
   position: relative;
-  min-width: 295px;
+  max-width: 295px;
   background-color: #faf3e7;
   border-radius: 20px;
 
@@ -95,21 +95,10 @@
   padding-bottom: 8px;
 }
 
-/*.modal-form-check-desc::before {
-  display: block;
-  width: 16px;
-  height: 16px;
-  border: 1px solid var(--btn-hover-background-color);
-  border-radius: 4px;
-  cursor: pointer;
-  content: '';
-}
-
-.modal-form-check:checked + .modal-form-check-desc::before {
-  background-color: #fc8a11;
-}*/
-
 .modal-checkbox {
+  position: absolute;
+  top: 14px;
+  right: 14px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -156,11 +145,6 @@
   line-height: 18px;
   letter-spacing: -0.28px;
 }
-
-/* .selected{ position: absolute;
-top: 14;
-right: 14;
-} */
 
 .contact-form-input {
   width: 100%;
