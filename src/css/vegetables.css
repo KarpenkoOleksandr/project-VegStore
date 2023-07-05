@@ -256,6 +256,7 @@ body {
 .organic-v {
   /* max-width: 389px; */
   flex-basis: calc((100% - 48px) /3);
+  padding: 64px 24px 24px;
 }
 
 
