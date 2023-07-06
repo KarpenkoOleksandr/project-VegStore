@@ -4,6 +4,7 @@
 .container-hero {
   width: 100%;
   padding: 14px 20px;
+  margin: 0 auto;
 }
 .hero {
   color: #fff;
@@ -258,7 +259,6 @@
   .container-hero {
     max-width: 1280px;
     padding: 0 32px;
-    margin: 0 auto;
   }
   .section-plus {
     position: absolute;

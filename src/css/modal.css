@@ -193,6 +193,7 @@
 
 .modal-form-btn {
   display: inline-flex;
+  align-items: center;
   padding: 12px 24px;
 
   min-width: 92px;
