@@ -44,7 +44,6 @@
   color: var(--primary-text-color);
   padding: 10px 17px;
   font-size: 18px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
@@ -60,7 +59,6 @@
 .steps-title {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
-  font-family: DM Sans;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: -0.96px;
@@ -75,7 +73,6 @@
 
   color: var(--primary-text-color);
   font-size: 14px;
-  font-family: DM Sans;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.56px;

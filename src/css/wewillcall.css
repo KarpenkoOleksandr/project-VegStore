@@ -7,7 +7,6 @@
 .wewill-tittle {
   max-width: 320px;
 
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -28,7 +27,6 @@
 .wewill-text {
   max-width: 320px;
 
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -63,7 +61,6 @@
 }
 
 .wewill-input::placeholder {
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -87,7 +84,6 @@
   background: #fc8a11;
   border: none;
 
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
