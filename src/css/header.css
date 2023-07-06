@@ -24,7 +24,6 @@
   align-items: center;
   margin-top: 1px;
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 700;
   line-height: 0;
@@ -74,7 +73,6 @@
   background: var(--header-background-color);
   padding-top: 124px;
   font-size: 14px;
-  font-family: DM Sans;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: -0.56px;
@@ -201,7 +199,6 @@
     margin-left: 308px;
 
     font-size: 14px;
-    font-family: DM Sans;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.56px;
