@@ -51,7 +51,7 @@ body {
 
 .organic-h {
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-family: DM Sans;
   font-style: normal;
@@ -209,6 +209,12 @@ body {
     margin-bottom: 40px;
   }
 
+  .organic-h {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+  }
+
   .organic-p {
     max-width: 562px;
     font-size: 18px;
@@ -238,6 +244,12 @@ body {
 
   .organic-vegetables .organic-v:last-child {
     display: flex;
+  }
+
+  .organic-h {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
   }
 
   .organic-v {

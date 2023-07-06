@@ -8,7 +8,7 @@
 }
 .hero {
   color: #fff;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
@@ -56,7 +56,7 @@
 }
 .reviews-text {
   color: var(--primary-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 8px;
   font-family: DM Sans;
   font-style: normal;
@@ -116,7 +116,7 @@
 .hero-btn {
   color: #fff;
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 10px;
   font-family: DM Sans;
   line-height: 1.2;
@@ -165,7 +165,7 @@
   }
   .hero {
     color: #fff;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 54px;
     font-family: DM Sans;
     font-style: normal;
@@ -228,7 +228,7 @@
     width: 114px;
     height: 114px;
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 24px;
     font-family: DM Sans;
     font-style: normal;
@@ -310,7 +310,7 @@
   }
   .hero {
     color: #fff;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 64px;
     font-family: DM Sans;
     font-style: normal;
@@ -324,7 +324,7 @@
     width: 132px;
     height: 132px;
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 24px;
     font-family: DM Sans;
     font-style: normal;
