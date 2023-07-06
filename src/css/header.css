@@ -63,7 +63,7 @@
 
 .mobile-menu-container {
   /* display: none; */
-  position: fixed;
+  position: absolute;
   top: 50px;
   left: 0;
   width: 100%;
