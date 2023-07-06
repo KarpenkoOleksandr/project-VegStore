@@ -65,7 +65,6 @@
   color: #141414;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 28px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
@@ -129,7 +128,6 @@
   display: block;
   color: #141414;
   font-size: 18px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -139,7 +137,6 @@
 .modal-card-text {
   color: #141414;
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
@@ -201,7 +198,6 @@
 
   color: #fff;
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
