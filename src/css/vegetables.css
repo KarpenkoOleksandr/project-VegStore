@@ -209,6 +209,12 @@ body {
     margin-bottom: 40px;
   }
 
+  .organic-h {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+  }
+
   .organic-p {
     max-width: 562px;
     font-size: 18px;
@@ -238,6 +244,12 @@ body {
 
   .organic-vegetables .organic-v:last-child {
     display: flex;
+  }
+
+  .organic-h {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
   }
 
   .organic-v {
